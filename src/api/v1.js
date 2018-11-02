@@ -2,6 +2,8 @@
 
 import express from 'express';
 
+import notes from '../models/notes.js';
+
 import modelFinder from '../middleware/model-finder.js';
 
 const router = express.Router();
